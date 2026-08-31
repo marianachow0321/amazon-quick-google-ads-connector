@@ -1,0 +1,16 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# local scratch
+.venv
+upstream-ref
+__pycache__/
+*.pyc
+.pytest_cache
+.DS_Store
